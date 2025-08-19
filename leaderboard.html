@@ -1,7 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sleuth Leaderboard</title>
   <link rel="stylesheet" href="style.css">
 
@@ -22,8 +23,10 @@
 </head>
 <body>
   <h1>🏆 Sleuth Leaderboard</h1>
-  <ul id="board"></ul>
-  <p><a href="index.html">Back to Game</a></p>
+  <div id="game">
+    <ul id="board"></ul>
+    <p><a href="index.html">Back to Game</a></p>
+  </div>
 
   <script>
     const boardEl = document.getElementById("board");
